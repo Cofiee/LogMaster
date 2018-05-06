@@ -1,0 +1,141 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(osr.ttf);
+}
+@font-face {
+    font-family: OSL;
+    src: url(osl.ttf);
+}
+body{
+    background-image: url("obrazy/wall.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 1520px;
+}
+#header{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: whitesmoke;
+    height: 145px;
+    
+}
+#sideb{
+    float: left;
+    color: whitesmoke;
+    font-family: OSL;
+    text-align: left;
+    font-size: 19px;
+    width: 334px;
+    height: 678px;
+}
+#content{
+    margin-left: 364px;
+    font-family: OpenSans;
+    width: 1166px;
+    height: 678px;
+}
+#footer{
+    clear: both;
+    height: 80px;
+}
+
+#top{
+    width: 334px;
+    height: 344px;
+    background-color:;
+}
+    #ez{
+        width: 329px;
+        height: 162px;
+        background: linear-gradient(to right,rgb(0, 94, 235),rgb(42, 127, 255));
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    #adv{
+
+        width: 329px;
+        height: 162px;
+        background: linear-gradient(to right,rgb(0, 204, 255),rgb(0, 255, 255));
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+#down{
+    
+    height: 334px;
+}
+    #left{
+        float: left;
+        width: 162px;
+        height: 334px;
+        background-color:;
+    }
+        #cr{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(102, 0, 204),rgb(102, 51, 255));
+            padding-left: 5px;
+        }
+        #dd{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(255, 101, 255),rgb(255, 204, 255));
+            padding-left: 5px;
+        }
+    #right{
+        margin-left: 10px;
+        float: left;
+        width: 162px;
+        height: 334px;
+        
+    }
+        #man{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(0, 255, 51),rgb(51, 255, 102));
+            padding-left: 5px;
+        }
+        #mac{
+            color: black;
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+
+.imag1{
+    width: 100px;
+    height: 120px;
+    margin-left: 113px;
+    margin-top: 10px
+}
+.imag2{
+    width: 70px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 25px
+}
+::selection {
+
+}
+a:link {
+    color: rgb(245, 245, 245); 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(245, 245, 245);
+}

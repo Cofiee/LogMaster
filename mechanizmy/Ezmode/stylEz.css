@@ -1,0 +1,150 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(osr.ttf);
+}
+@font-face {
+    font-family: OSL;
+    src: url(osl.ttf);
+}
+body{
+    background-image: url("obrazy/wall.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 1520px;
+}
+#header{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: whitesmoke;
+    
+    height: 145px;
+    
+}
+#sideb{
+    float: left;
+    color: whitesmoke;
+    font-family: OSL;
+    text-align: left;
+    font-size: 19px;
+    width: 334px;
+    height: 678px;
+}
+#content{
+    overflow: auto; 
+    margin-left: 364px;
+    font-family: OpenSans;
+    width: 1166px;
+    height: 678px;
+}
+#footer{
+    clear: both;
+    height: 80px;
+}
+
+#top{
+    width: 334px;
+    height: 516px;
+}
+    
+    #sr{    
+            width: 329px;
+            clear: both;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,#6600cc,#6633ff);
+            padding-left: 5px;
+    }
+    #fl{    
+        width: 329px;
+        clear: both;
+        height: 162px;
+        margin-bottom: 10px;
+        background: linear-gradient(to right,#6600cc,#6633ff);
+        padding-left: 5px;
+    }
+    #back{
+        width: 329px;
+        height: 162px;
+        background: linear-gradient(to right,rgb(51, 153, 255),rgb(102, 204, 255));
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+#down{
+    
+    height: 162px;
+
+}
+    #left{
+        float: left;
+        width: 162px;
+        height: 334px;
+    }
+        #clear{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(255, 155, 109),rgb(255, 202, 142));
+            padding-left: 5px;
+        }
+        #man{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(0, 255, 51),rgb(51, 255, 102));
+            padding-left: 5px;
+        }
+    #right{
+        margin-left: 10px;
+        float: left;
+        width: 162px;
+        height: 334px;
+        
+    }
+        #logNow{
+            clear: both;
+            width: 157px;
+            height: 162px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right,rgb(0, 162, 255),rgb(51, 224, 255));
+            padding-left: 5px;
+        }  
+
+
+#searchPanel{
+}
+#button{
+    padding-left: 125px;
+}
+#srsr{
+    float: left;
+    width: 150px;
+}
+.imag1{
+    width: 100px;
+    height: 120px;
+    margin-left: 113px;
+    margin-top: 10px
+}
+.imag2{
+    width: 70px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 25px
+}
+a:link {
+    color: rgb(245, 245, 245); 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(245, 245, 245);
+}

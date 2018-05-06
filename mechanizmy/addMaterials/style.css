@@ -1,0 +1,76 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(osr.ttf);
+}
+@font-face {
+    font-family: OSL;
+    src: url(osl.ttf);
+}
+body{
+    background-image: url("obrazy/wall.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 1520px;
+}
+#header{
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 24px;
+    height: 75px;
+    width: 774px;
+    margin:auto;
+    color: rgb(39, 39, 39);
+    background-color: rgb(255, 186, 74); 
+}
+#content{
+    color: rgb(39, 39, 39);
+    font-family: OSL;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1146px;
+    height: 680px;
+    
+}
+#sidebar{
+    float: right; 
+    text-align: left;
+    font-size: 19px;
+    width: 338px;
+    height: 594px;
+    margin-right: 186px;
+    background-color: rgb(255, 186, 74);
+    padding-top: 16px;
+    padding-right: 16px;
+    
+}
+#formularz{
+    height: 594px;
+    margin-left: 186px;    
+    padding-top: 16px; 
+    text-align: center; 
+    background-color: rgb(255, 186, 74);
+    width: 420px;
+}
+#sample{
+    height: 215px;
+    margin-top: 151px;
+    margin-bottom: 16px
+}
+#message{
+    height: 40px;
+    padding-top: 10px;
+}
+#messOk{
+    color: green;
+}
+#messBad{
+    color: red;
+}
