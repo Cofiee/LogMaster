@@ -49,6 +49,12 @@
                             <img class=imag2 src="mechanizmy/hubMaterials/obrazy/man.png" style="width:70px;height:80px;">
                         </div>
                     </a>
+                    <a href="wykres/wykres01.php">
+                        <div id="chart">
+                            Wykres aktywności z ostatnich 7 dni<br />
+                            
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
